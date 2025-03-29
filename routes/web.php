@@ -13,5 +13,13 @@ Route::middleware(['auth', 'verified'])->group(function () {
     })->name('dashboard');
 });
 
+
+
+// Book qpi routes
+// Route::get('/api/books', [BookController::class, 'index'])->name('books.index');
+
+
+// Book routes
+
 require __DIR__.'/settings.php';
 require __DIR__.'/auth.php';

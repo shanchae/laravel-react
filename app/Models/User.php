@@ -24,7 +24,7 @@ class User extends Authenticatable
 
     public function borrowedBooks()
     {
-        return $this->hasMany(BorrowedBooks::class);
+        return $this->hasMany(BorrowedBook::class);
     }
 
     /**

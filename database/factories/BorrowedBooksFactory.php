@@ -19,8 +19,8 @@ class BorrowedBooksFactory extends Factory
     public function definition(): array
     {
         return [
-            'book_id' => Book::factory()->create(),
-            'borrower_id' => User::factory()->create(),
+            'book_id' => 1,
+            'borrower_id' => 1,
             'borrowed_at' => now(),
             'returned_at' => null,
         ];
